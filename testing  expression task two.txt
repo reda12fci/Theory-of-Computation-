@@ -1,0 +1,113 @@
+Enter the regular expression :
+a+ba
+
+
+aaaaaaaaaaaa-------------------------
+
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+aaba
+accepted 
+
+
+##################################################################
+
+
+Enter the regular expression :
+a*|b
+Examples for this regular expression are :
+ aa---------------------------
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+b
+accepted 
+
+#####################################################
+
+Enter the regular expression :
+a*|b*
+ aaaaaaaaaaaa---------------------------------
+
+
+Enter Y :
+y
+
+Enter string :
+aaaaaaaaaaaaaaaaaaaaaa
+accepted 
+
+########################################################
+
+Enter the regular expression :
+ab*
+Examples for this regular expression are :
+ abbbb-----------
+
+do yo want to check specific string acceptance :Enter Y :
+y
+
+Enter string :
+a
+accepted 
+
+#########################################################
+
+Enter the regular expression :
+(ab)*
+Examples for this regular expression are :
+ abab----------------------------------------- 
+
+Enter Y :
+y
+
+Enter string :
+a
+not accepted 
+
+########################################################
+
+Enter the regular expression :
+(a|b)*
+Examples for this regular expression are :
+ ab
+Enter Y :
+y
+
+Enter string :
+abab
+accepted 
+
+########################################################
+
+Enter the regular expression :
+abb*
+Examples are :
+ abb------------------------------
+
+Enter Y :
+y
+
+Enter string :
+ab
+accepted 
+
+-------------------------------------------------------------
+Enter the regular expression :
+a*b*
+Examplesare :
+ aa--------bbb---------
+
+
+
+Enter Y :
+y
+
+Enter string :
+aba
+not accepted 
